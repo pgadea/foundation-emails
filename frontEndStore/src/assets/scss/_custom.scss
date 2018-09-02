@@ -1,0 +1,46 @@
+table.body {
+    background-color: $primary-color;
+}
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: $primary-color;
+    margin-bottom: 20px;
+}
+
+.product {
+    background-color: $white;
+    padding-top: 20px;
+
+    h3 {
+        background-color: $secondary-color;
+        padding: 5px 0;
+    }
+
+    .price {
+        padding-left: 20px;
+        font-size: 40px;
+        color: $purple;
+        padding-top: 11px;
+        font-weight: bold;
+    }
+
+    .button {
+        text-transform: uppercase;
+        float: right;
+        padding-right: 20px;
+    }
+}
+
+.footer-text {
+    color: $white;
+    font-size: 18px;
+    padding-top: 20px;
+}
